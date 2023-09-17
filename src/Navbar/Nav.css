@@ -1,0 +1,48 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 26px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.nav_black {
+  background-color: rgba(0, 0, 0, 0.804);
+}
+.nav_logo {
+  position: fixed;
+  left: 40px;
+  width: 80px;
+  object-fit: contain;
+}
+.nav_sign {
+  position: fixed;
+  right: 30px;
+  display: flex;
+}
+button.signUp {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 0.3vw;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #e50914;
+}
+button.signIn {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  background: none;
+  font-weight: 600;
+  line-height: 1;
+  margin-right: 0.8rem;
+}
